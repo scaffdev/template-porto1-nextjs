@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="100%" height="100%">
+  <rect width="1600" height="900" fill="#F4F4F2"/>
+  <rect x="0" y="0" width="1600" height="900" fill="none" stroke="#E5E5E3" stroke-width="2"/>
+  
+  <!-- Window chrome -->
+  <rect x="120" y="100" width="1360" height="700" rx="6" fill="#FFFFFF" stroke="#E5E5E3" stroke-width="2"/>
+  <line x1="120" y1="170" x2="1480" y2="170" stroke="#E5E5E3" stroke-width="2"/>
+  <circle cx="160" cy="135" r="7" fill="#E5E5E3"/>
+  <circle cx="185" cy="135" r="7" fill="#E5E5E3"/>
+  <circle cx="210" cy="135" r="7" fill="#E5E5E3"/>
+  
+  <rect x="250" y="120" width="300" height="30" rx="3" fill="#F8F8F6"/>
+  <text x="270" y="141" font-family="'DM Sans', -apple-system, sans-serif" font-size="13" fill="#888888">app.internal/system/v1</text>
+  
+  <!-- Content inside window -->
+  <rect x="170" y="220" width="1260" height="1" fill="#E5E5E3"/>
+  <text x="170" y="270" font-family="'DM Serif Display', Georgia, serif" font-size="34" fill="#111111">Platform Antrean Pelayanan Publik Terpadu</text>
+  <text x="170" y="305" font-family="'DM Sans', -apple-system, sans-serif" font-size="16" fill="#888888">Alur reservasi tiket real-time dengan notifikasi antrean instansi</text>
+  
+  <!-- Tags -->
+  <g transform="translate(170, 335)">
+    <rect x="0" y="0" width="100" height="28" rx="3" fill="#F2F2F0" stroke="#E5E5E3"/>
+    <text x="15" y="19" font-family="'DM Sans', sans-serif" font-size="13" fill="#555555">React</text>
+    
+    <rect x="110" y="0" width="110" height="28" rx="3" fill="#F2F2F0" stroke="#E5E5E3"/>
+    <text x="125" y="19" font-family="'DM Sans', sans-serif" font-size="13" fill="#555555">Node.js</text>
+
+    <rect x="230" y="0" width="100" height="28" rx="3" fill="#F2F2F0" stroke="#E5E5E3"/>
+    <text x="245" y="19" font-family="'DM Sans', sans-serif" font-size="13" fill="#555555">MySQL</text>
+  </g>
+  
+  <!-- UI Mockup grid cards -->
+  <g transform="translate(170, 395)">
+    <!-- Card 1 -->
+    <rect x="0" y="0" width="390" height="320" rx="4" fill="#FAFAF8" stroke="#E5E5E3"/>
+    <rect x="30" y="30" width="140" height="14" rx="2" fill="#E5E5E3"/>
+    <text x="30" y="90" font-family="'DM Serif Display', serif" font-size="36" fill="#111111">1,280</text>
+    <rect x="30" y="120" width="220" height="10" rx="2" fill="#EAEAE8"/>
+    <line x1="30" y1="160" x2="360" y2="160" stroke="#E5E5E3"/>
+    <rect x="30" y="185" width="280" height="12" rx="2" fill="#EAEAE8"/>
+    <rect x="30" y="215" width="200" height="12" rx="2" fill="#EAEAE8"/>
+    <rect x="30" y="245" width="240" height="12" rx="2" fill="#EAEAE8"/>
+
+    <!-- Card 2 -->
+    <rect x="420" y="0" width="420" height="320" rx="4" fill="#FAFAF8" stroke="#E5E5E3"/>
+    <rect x="450" y="30" width="160" height="14" rx="2" fill="#E5E5E3"/>
+    <line x1="450" y1="75" x2="810" y2="75" stroke="#E5E5E3"/>
+    <!-- Simulated table rows -->
+    <rect x="450" y="95" width="260" height="12" rx="2" fill="#111111" opacity="0.75"/>
+    <rect x="740" y="95" width="70" height="12" rx="2" fill="#E63329"/>
+    <rect x="450" y="135" width="220" height="12" rx="2" fill="#888888" opacity="0.5"/>
+    <rect x="740" y="135" width="70" height="12" rx="2" fill="#888888" opacity="0.3"/>
+    <rect x="450" y="175" width="240" height="12" rx="2" fill="#888888" opacity="0.5"/>
+    <rect x="740" y="175" width="70" height="12" rx="2" fill="#888888" opacity="0.3"/>
+    <rect x="450" y="215" width="190" height="12" rx="2" fill="#888888" opacity="0.5"/>
+    <rect x="740" y="215" width="70" height="12" rx="2" fill="#888888" opacity="0.3"/>
+    <rect x="450" y="255" width="250" height="12" rx="2" fill="#888888" opacity="0.5"/>
+    <rect x="740" y="255" width="70" height="12" rx="2" fill="#888888" opacity="0.3"/>
+
+    <!-- Card 3 -->
+    <rect x="870" y="0" width="390" height="320" rx="4" fill="#FAFAF8" stroke="#E5E5E3"/>
+    <rect x="900" y="30" width="120" height="14" rx="2" fill="#E5E5E3"/>
+    <!-- Minimal chart bars -->
+    <rect x="910" y="220" width="28" height="60" rx="2" fill="#111111"/>
+    <rect x="955" y="180" width="28" height="100" rx="2" fill="#111111"/>
+    <rect x="1000" y="140" width="28" height="140" rx="2" fill="#E63329"/>
+    <rect x="1045" y="190" width="28" height="90" rx="2" fill="#111111"/>
+    <rect x="1090" y="160" width="28" height="120" rx="2" fill="#111111"/>
+    <rect x="1135" y="110" width="28" height="170" rx="2" fill="#111111"/>
+    <rect x="1180" y="130" width="28" height="150" rx="2" fill="#111111"/>
+    <line x1="900" y1="285" x2="1230" y2="285" stroke="#E5E5E3" stroke-width="2"/>
+  </g>
+</svg>

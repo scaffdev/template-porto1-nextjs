@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#FAFAF8"/>
+  <rect x="40" y="40" width="1120" height="550" fill="none" stroke="#E5E5E3" stroke-width="2"/>
+  
+  <text x="100" y="160" font-family="'DM Sans', sans-serif" font-size="20" fill="#888888" letter-spacing="3">01 / PORTOFOLIO</text>
+  <line x1="100" y1="190" x2="160" y2="190" stroke="#E63329" stroke-width="3"/>
+  
+  <text x="100" y="290" font-family="'DM Serif Display', Georgia, serif" font-size="76" fill="#111111">Achmad Bagus R.</text>
+  <text x="100" y="360" font-family="'DM Sans', sans-serif" font-size="28" fill="#888888">Fresh Graduate · Sistem Informasi</text>
+  <text x="100" y="405" font-family="'DM Sans', sans-serif" font-size="22" fill="#555555">Universitas Bina Sarana Informatika</text>
+  
+  <line x1="100" y1="460" x2="1100" y2="460" stroke="#E5E5E3" stroke-width="1"/>
+  <text x="100" y="515" font-family="'DM Sans', sans-serif" font-size="18" fill="#888888">achmadbagus.dev@gmail.com</text>
+  <text x="1000" y="515" font-family="'DM Sans', sans-serif" font-size="18" fill="#E63329" text-anchor="end">Lihat Portofolio →</text>
+</svg>
