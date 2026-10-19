@@ -10,7 +10,7 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-2">
               <span className="w-7 h-7 rounded-lg bg-blue-600 text-white flex items-center justify-center font-bold text-xs">
-                AB
+                {profil.inisial}
               </span>
               <span className="font-heading font-bold text-slate-900 text-lg">
                 {profil.nama}
@@ -61,7 +61,7 @@ export function Footer() {
         </div>
 
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
-          <p>© {new Date().getFullYear()} Achmad Bagus R. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} {profil.nama} All rights reserved.</p>
           <div className="flex items-center gap-4">
             <span>Dibuat dengan Next.js & Tailwind CSS</span>
             <a

@@ -32,19 +32,6 @@ export function Navbar() {
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 md:px-12 flex items-center justify-between">
-        {/* Logo / Brand */}
-        <a
-          href="#hero"
-          className="group flex items-center gap-2.5 text-slate-900 font-bold text-lg md:text-xl tracking-tight transition-colors"
-        >
-          <span className="w-8 h-8 rounded-lg bg-blue-600 text-white flex items-center justify-center font-extrabold text-sm shadow-sm group-hover:scale-105 transition-transform">
-            AB
-          </span>
-          <span className="font-heading group-hover:text-blue-600 transition-colors">
-            Achmad Bagus R.
-          </span>
-        </a>
-
         {/* Desktop Nav Items */}
         <nav className="hidden md:flex items-center gap-1 bg-slate-100/70 p-1.5 rounded-full border border-slate-200/70 shadow-2xs">
           {navLinks.map((link) => (
@@ -92,7 +79,7 @@ export function Navbar() {
         {/* Mobile Hamburger Toggle */}
         <button
           onClick={() => setOpen(!open)}
-          className="md:hidden p-2 text-slate-700 hover:bg-slate-100 rounded-lg transition-colors"
+          className="md:hidden ml-auto p-2 text-slate-700 hover:bg-slate-100 rounded-lg transition-colors"
           aria-label="Toggle Menu"
         >
           {open ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}

@@ -18,7 +18,7 @@ export function HeroSection() {
           </span>
           <span>Tersedia untuk Peluang Kerja & Kolaborasi</span>
           <span className="text-emerald-400">·</span>
-          <span className="font-normal text-emerald-700">Fresh Graduate Sistem Informasi</span>
+          <span className="font-normal text-emerald-700">{profil.role}</span>
         </div>
 
         {/* Main Headline */}
@@ -32,7 +32,7 @@ export function HeroSection() {
 
         {/* Subtitle / Intro */}
         <p className="text-slate-600 text-base sm:text-lg md:text-xl font-normal leading-relaxed max-w-2xl mx-auto mb-8">
-          {profil.tagline} Lulusan Sistem Informasi dari {profil.universitas} dengan keahlian pengembangan aplikasi web full-stack, perancangan basis data, dan antarmuka pengguna responsif.
+          {profil.tagline} Lulusan {profil.jurusan} dari {profil.universitas} dengan keahlian pengembangan aplikasi web full-stack, perancangan basis data, dan antarmuka pengguna responsif.
         </p>
 
         {/* CTA Buttons */}
@@ -109,8 +109,8 @@ export function HeroSection() {
             <div className="w-8 h-8 rounded-lg bg-blue-50 text-blue-600 flex items-center justify-center mb-2">
               <GraduationCap className="w-4 h-4" />
             </div>
-            <p className="font-heading font-extrabold text-xl text-slate-900">3.85 / 4.00</p>
-            <p className="text-xs text-slate-500 font-medium">IPK Kelulusan (UBSI)</p>
+            <p className="font-heading font-extrabold text-xl text-slate-900">{profil.ipk}</p>
+            <p className="text-xs text-slate-500 font-medium">IPK Kelulusan ({profil.universitasSingkat})</p>
           </div>
 
           <div className="p-4 rounded-xl bg-white border border-slate-200/80 shadow-2xs hover:border-blue-200 transition-colors">

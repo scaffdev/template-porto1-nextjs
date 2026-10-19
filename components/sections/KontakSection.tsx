@@ -30,7 +30,7 @@ export function KontakSection() {
     e.preventDefault()
     // Open default mail client with prefilled body
     const subject = encodeURIComponent(`Inquiry Portofolio dari ${formState.nama}`)
-    const body = encodeURIComponent(`Halo Achmad Bagus,\n\n${formState.pesan}\n\nPengirim: ${formState.nama} (${formState.email})`)
+    const body = encodeURIComponent(`Halo Rizky,\n\n${formState.pesan}\n\nPengirim: ${formState.nama} (${formState.email})`)
     window.location.href = `mailto:${profil.email}?subject=${subject}&body=${body}`
     setFormSent(true)
   }
@@ -51,7 +51,7 @@ export function KontakSection() {
             <div className="flex items-center gap-4 mb-6">
               <div className="relative w-16 h-16 rounded-2xl overflow-hidden border-2 border-slate-100 shadow-xs flex-shrink-0">
                 <img
-                  src="/bagustampan.png"
+                  src={profil.foto}
                   alt={profil.nama}
                   className="w-full h-full object-cover object-top"
                 />
@@ -124,7 +124,7 @@ export function KontakSection() {
                       LinkedIn Profile
                     </p>
                     <p className="text-xs text-slate-500">
-                      linkedin.com/in/achmad-bagus
+                      linkedin.com/in/rizky-pratama
                     </p>
                   </div>
                 </div>
@@ -147,7 +147,7 @@ export function KontakSection() {
                       GitHub Repositories
                     </p>
                     <p className="text-xs text-slate-500">
-                      github.com/achmadbagus
+                      github.com/rizkypratama
                     </p>
                   </div>
                 </div>
@@ -193,7 +193,7 @@ export function KontakSection() {
                       Instagram
                     </p>
                     <p className="text-xs text-slate-500">
-                      @achmadbagus
+                      @rizkypratama
                     </p>
                   </div>
                 </div>

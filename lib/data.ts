@@ -1,9 +1,14 @@
 export interface Profil {
   nama: string
   panggilan: string
+  inisial: string
   role: string
   subRole: string
   universitas: string
+  universitasSingkat: string
+  jurusan: string
+  gelar: string
+  tahunLulus: string
   ipk: string
   tagline: string
   bio: string
@@ -12,6 +17,7 @@ export interface Profil {
   whatsapp: string
   cv: string
   lokasi: string
+  foto: string
   linkedin: string
   github: string
   instagram: string
@@ -49,28 +55,34 @@ export interface Pengalaman {
 }
 
 export const profil: Profil = {
-  nama: "Achmad Bagus R.",
-  panggilan: "Bagus",
-  role: "Fresh Graduate Sistem Informasi",
+  nama: "Rizky Pratama",
+  panggilan: "Rizky",
+  inisial: "RP",
+  role: "Fresh Graduate Teknik Informatika",
   subRole: "Junior Full-Stack Web Developer & UI Enthusiast",
-  universitas: "Universitas Bina Sarana Informatika",
-  ipk: "3.85 / 4.00",
-  lokasi: "Jakarta, Indonesia",
+  universitas: "Universitas Teknologi Nusantara",
+  universitasSingkat: "UTN",
+  jurusan: "S1 Teknik Informatika",
+  gelar: "Sarjana Komputer (S.Kom)",
+  tahunLulus: "2026",
+  ipk: "3.78 / 4.00",
+  lokasi: "Bandung, Indonesia",
   tagline: "Merancang dan membangun aplikasi web yang fungsional, performan, serta memiliki pengalaman pengguna yang memikat.",
-  bio: "Lulusan Sistem Informasi dari Universitas Bina Sarana Informatika dengan antusiasme mendalam pada ekosistem web modern. Memiliki kemampuan merancang arsitektur sistem dari frontend yang responsif hingga backend terstruktur.",
+  bio: "Lulusan Teknik Informatika dari Universitas Teknologi Nusantara dengan antusiasme mendalam pada ekosistem web modern. Memiliki kemampuan merancang arsitektur sistem dari frontend yang responsif hingga backend terstruktur.",
   bioLengkap: [
-    "Saya adalah Fresh Graduate program studi Sistem Informasi dari Universitas Bina Sarana Informatika (UBSI) dengan passion yang kuat dalam bidang rekayasa perangkat lunak dan pengembangan web.",
+    "Saya adalah Fresh Graduate program studi Teknik Informatika dari Universitas Teknologi Nusantara (UTN) dengan passion yang kuat dalam bidang rekayasa perangkat lunak dan pengembangan web.",
     "Selama masa studi, saya aktif memadukan teori analisis sistem dan pemodelan basis data dengan implementasi praktis teknologi web modern seperti Next.js, React, Node.js, Laravel, dan TypeScript.",
     "Saya terbiasa bekerja secara kolaboratif, memecahkan permasalahan teknis secara sistematis, serta senantiasa memperbarui pemahaman seputar clean code dan best practices pengembangan software."
   ],
-  email: "achmadbagus.dev@gmail.com",
-  whatsapp: "https://wa.me/6281234567890",
-  cv: "/achmad-cv.pdf",
-  linkedin: "https://linkedin.com/in/achmad-bagus",
-  github: "https://github.com/achmadbagus",
-  instagram: "https://instagram.com/achmadbagus",
+  email: "rizky.pratama.dev@gmail.com",
+  whatsapp: "https://wa.me/6285712345678",
+  cv: "/rizky-cv.pdf",
+  foto: "/gantuy.jpg",
+  linkedin: "https://linkedin.com/in/rizky-pratama",
+  github: "https://github.com/rizkypratama",
+  instagram: "https://instagram.com/rizkypratama",
   stats: [
-    { label: "IPK Kelulusan", value: "3.85" },
+    { label: "IPK Kelulusan", value: "3.78" },
     { label: "Proyek Selesai", value: "8+" },
     { label: "Tech Stack Dikuasai", value: "10+" },
     { label: "Pengalaman Praktik", value: "2 Tahun" }
@@ -101,7 +113,7 @@ export const proyeks: Proyek[] = [
     stack: ["Next.js 14", "TypeScript", "Tailwind CSS", "PostgreSQL", "Prisma"],
     foto: "/proyek/proyek-1.png",
     linkDemo: "https://inventaris-demo.vercel.app",
-    linkGithub: "https://github.com/achmadbagus/sistem-inventaris"
+    linkGithub: "https://github.com/rizkypratama/sistem-inventaris"
   },
   {
     id: "antrean-publik",
@@ -112,7 +124,7 @@ export const proyeks: Proyek[] = [
     stack: ["React", "Node.js", "Socket.io", "Express", "MySQL", "Tailwind CSS"],
     foto: "/proyek/proyek-2.png",
     linkDemo: "https://antrean-layanan.vercel.app",
-    linkGithub: "https://github.com/achmadbagus/antrean-online"
+    linkGithub: "https://github.com/rizkypratama/antrean-online"
   },
   {
     id: "keuangan-umkm",
@@ -123,7 +135,7 @@ export const proyeks: Proyek[] = [
     stack: ["Next.js", "Tailwind CSS", "Supabase", "Chart.js", "TypeScript"],
     foto: "/proyek/proyek-3.png",
     linkDemo: "https://umkm-finance.vercel.app",
-    linkGithub: "https://github.com/achmadbagus/umkm-financial-dashboard"
+    linkGithub: "https://github.com/rizkypratama/umkm-financial-dashboard"
   },
   {
     id: "arsip-digital",
@@ -133,7 +145,7 @@ export const proyeks: Proyek[] = [
     highlight: "Menjamin validitas dan mencegah manipulasi dokumen dengan verifikasi tanda tangan digital.",
     stack: ["Laravel 11", "Blade", "Tailwind CSS", "MySQL", "Alpine.js"],
     foto: "/proyek/proyek-4.png",
-    linkGithub: "https://github.com/achmadbagus/arsip-digital-surat"
+    linkGithub: "https://github.com/rizkypratama/arsip-digital-surat"
   }
 ]
 
@@ -156,7 +168,7 @@ export const pengalamans: Pengalaman[] = [
     tahun: "2024 – 2025",
     jabatan: "Koordinator Divisi IT & Pengembangan Media",
     tipe: "Organisasi Kampus",
-    tempat: "Himpunan Mahasiswa Sistem Informasi UBSI",
+    tempat: "Himpunan Mahasiswa Teknik Informatika UTN",
     lokasi: "Jakarta",
     deskripsi: "Memimpin perancangan aset teknologi informasi dan pengelolaan portal web organisasi.",
     tanggungJawab: [
@@ -170,8 +182,8 @@ export const pengalamans: Pengalaman[] = [
     tahun: "2023 – 2024",
     jabatan: "Asisten Praktikum Laboratorium Komputer",
     tipe: "Akademik",
-    tempat: "Universitas Bina Sarana Informatika",
-    lokasi: "Kampus UBSI",
+    tempat: "Universitas Teknologi Nusantara",
+    lokasi: "Kampus UTN",
     deskripsi: "Mendampingi dosen dalam pelaksanaan praktikum basis data dan pemrograman terstruktur bagi mahasiswa.",
     tanggungJawab: [
       "Membantu lebih dari 100 mahasiswa memahami konsep query SQL, normalisasi database, dan relasi tabel.",

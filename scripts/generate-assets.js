@@ -1,10 +1,11 @@
+/* eslint-disable @typescript-eslint/no-require-imports */
 const fs = require('fs');
 const path = require('path');
 
 // Ensure directories
 fs.mkdirSync(path.join(__dirname, '../public/proyek'), { recursive: true });
 
-// 1. Generate achmad-cv.pdf
+// 1. Generate rizky-cv.pdf
 const pdf = `%PDF-1.4
 1 0 obj
 << /Type /Catalog /Pages 2 0 R >>
@@ -21,12 +22,12 @@ stream
 BT
 /F1 24 Tf
 50 780 Td
-(Curriculum Vitae - Achmad Bagus R.) Tj
+(Curriculum Vitae - Rizky Pratama  ) Tj
 /F1 12 Tf
 0 -40 Td
-(Fresh Graduate Sistem Informasi - Universitas Bina Sarana Informatika) Tj
+(Fresh Graduate Teknik Informatika - Universitas Teknologi Nusantara  ) Tj
 0 -25 Td
-(Email: achmadbagus.dev@gmail.com | Portfolio: Web Portfolio) Tj
+(Email: rizky.pratama.dev@gmail.com | Portfolio: Website    ) Tj
 ET
 endstream
 endobj
@@ -47,7 +48,7 @@ startxref
 518
 %%EOF`;
 
-fs.writeFileSync(path.join(__dirname, '../public/achmad-cv.pdf'), pdf);
+fs.writeFileSync(path.join(__dirname, '../public/rizky-cv.pdf'), pdf);
 
 // 2. Generate 16:9 minimalist project SVGs
 function createProjectSvg(title, subtitle, tag1, tag2, tag3, accentColor = '#111111') {
@@ -171,12 +172,12 @@ const ogSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" wi
   <text x="100" y="160" font-family="'DM Sans', sans-serif" font-size="20" fill="#888888" letter-spacing="3">01 / PORTOFOLIO</text>
   <line x1="100" y1="190" x2="160" y2="190" stroke="#E63329" stroke-width="3"/>
   
-  <text x="100" y="290" font-family="'DM Serif Display', Georgia, serif" font-size="76" fill="#111111">Achmad Bagus R.</text>
-  <text x="100" y="360" font-family="'DM Sans', sans-serif" font-size="28" fill="#888888">Fresh Graduate · Sistem Informasi</text>
-  <text x="100" y="405" font-family="'DM Sans', sans-serif" font-size="22" fill="#555555">Universitas Bina Sarana Informatika</text>
+  <text x="100" y="290" font-family="'DM Serif Display', Georgia, serif" font-size="76" fill="#111111">Rizky Pratama</text>
+  <text x="100" y="360" font-family="'DM Sans', sans-serif" font-size="28" fill="#888888">Fresh Graduate · Teknik Informatika</text>
+  <text x="100" y="405" font-family="'DM Sans', sans-serif" font-size="22" fill="#555555">Universitas Teknologi Nusantara</text>
   
   <line x1="100" y1="460" x2="1100" y2="460" stroke="#E5E5E3" stroke-width="1"/>
-  <text x="100" y="515" font-family="'DM Sans', sans-serif" font-size="18" fill="#888888">achmadbagus.dev@gmail.com</text>
+  <text x="100" y="515" font-family="'DM Sans', sans-serif" font-size="18" fill="#888888">rizky.pratama.dev@gmail.com</text>
   <text x="1000" y="515" font-family="'DM Sans', sans-serif" font-size="18" fill="#E63329" text-anchor="end">Lihat Portofolio →</text>
 </svg>`;
 

@@ -17,14 +17,14 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://achmad-bagus.vercel.app'),
-  title: 'Achmad Bagus R. — Fresh Graduate Sistem Informasi & Web Developer',
-  description: 'Portofolio profesional Achmad Bagus R., Fresh Graduate Sistem Informasi Universitas Bina Sarana Informatika. Fokus pada Web Development modern & solusi digital.',
+  metadataBase: new URL('https://rizky-pratama.vercel.app'),
+  title: 'Rizky Pratama — Fresh Graduate Teknik Informatika & Web Developer',
+  description: 'Portofolio profesional Rizky Pratama, Fresh Graduate Teknik Informatika Universitas Teknologi Nusantara. Fokus pada Web Development modern & solusi digital.',
   openGraph: {
-    title: 'Achmad Bagus R. — Portofolio',
-    description: 'Fresh Graduate Sistem Informasi & Web Developer',
-    url: 'https://achmad-bagus.vercel.app',
-    siteName: 'Achmad Bagus R. Portfolio',
+    title: 'Rizky Pratama — Portofolio',
+    description: 'Fresh Graduate Teknik Informatika & Web Developer',
+    url: 'https://rizky-pratama.vercel.app',
+    siteName: 'Rizky Pratama Portfolio',
     images: [{ url: '/og-image.png', width: 1200, height: 630 }],
   },
 }
